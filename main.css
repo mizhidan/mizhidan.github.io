@@ -1,0 +1,444 @@
+body {
+    background-color: black;
+    width: 95%;
+    margin: auto;
+}
+
+.header {
+    background: url('images/starfield-banner.jpg ');
+}
+
+.header .logo-link {
+    padding: 10px;
+}
+
+.header .logo {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 11px;
+    background-image: url(./images/nasa_logo.pn);
+    float: left;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.header .first-navbar {
+    margin-top: 20px;
+    margin-left: 270px;
+}
+
+.first-navbar a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.849);
+    font-size: 17px;
+    padding: 10px 15px;
+    border-right: 1.5px solid rgba(182, 182, 182, 0.507);
+}
+
+.first-navbar a:last-child {
+    border-right: 0;
+}
+
+.searchbox {
+    position: relative;
+    float: right;
+    top: -30px;
+    left: -20px;
+    background-color: #333;
+}
+
+.searchbox input {
+    background-color: #333;
+    border: none;
+    outline: medium;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.searchbox .icon {
+    position: absolute;
+    height: 100%;
+    background-color: #333;
+}
+
+.searchbox i img {
+    position: relative;
+    top: 7px;
+    left: 2px;
+}
+
+.icon-share {
+    position: relative;
+    right: -50px;
+    height: 40px;
+    float: right;
+}
+
+.second-navbar {
+    margin-top: 40px;
+    margin-left: 200px;
+    padding: 10px;
+}
+
+.second-navbar a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.849);
+    font-size: 12px;
+    padding: 10px 15px;
+    background-color: #555555;
+    border-right: 1.5px solid rgba(182, 182, 182, 0.507);
+}
+
+.second-navbar a:last-child {
+    border-right: none;
+}
+
+.contents {
+    margin-top: 10px;
+    height: 1300px;
+}
+
+.upper-part {
+    height: 640px;
+}
+
+.main-news {
+    position: relative;
+    float: left;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url(./images/pia21924-16.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.news-title {
+    position: relative;
+    bottom: -565px;
+    background-color: rgb(16, 129, 221);
+    color: white;
+    width: 70px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.news-brief {
+    position: relative;
+    bottom: -565px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    padding: 7px;
+}
+
+.news-right-part {
+    position: relative;
+    float: right;
+    height: 100%;
+    width: 48%;
+    left: -15px;
+}
+
+.upper-right-top-part {
+    height: 50%;
+}
+
+.climate-article {
+    position: relative;
+    float: left;
+    height: 100%;
+    background-image: url(./images/mollweide_cycle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    display: inline-block;
+}
+
+.climate-article .news-title {
+    top: 225px;
+}
+
+.climate-article .news-brief {
+    top: 225px;
+}
+
+.NASA-events {
+    position: relative;
+    float: right;
+    padding: 5px;
+    left: 5px;
+    color: white;
+    background-color: #4d7197;
+    width: 48%;
+    height: 97%;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.events-title {
+    margin: 2px 5px 2px 5px;
+    border-bottom: 1px solid white;
+}
+
+.events-footer {
+    position: relative;
+    bottom: -165px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+}
+
+.events-footer span {
+    padding: 0 5px;
+}
+
+.upper-right-bottom-part {
+    width: 101%;
+    height: 49%;
+    margin-top: 5px;
+    background-image: url(./images/s69-39961.jpg);
+    background-size: cover;
+}
+
+.upper-right-bottom-part .news-brief {
+    top: 280px;
+}
+
+.lower-part{
+    padding-top: 10px;
+    width: 100%;
+    height: 640px;
+}
+
+.news-upper-list{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-of-day{
+    width: 25%;
+    height: 100%;
+    background: url(./images/ssc2017-14a1.jpg) 50% 50% no-repeat;
+    z-index: 1;
+}
+
+.Asteroids{
+    height: 100%;
+    width: 50%;
+    padding: 0 10px;
+    background-image: url(./images/pia22556-16.gif);
+}
+
+.NASA-video{
+    height: 100%;
+    width: 25%;
+}
+
+.news-upper-list .news-title{
+    position: relative;
+    bottom: -245px;
+    background-color: rgb(16, 129, 221);
+    color: white;
+    width: 140px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.news-upper-list .news-brief{
+    position: relative;
+    bottom: -245px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    padding: 7px;
+}
+
+.Asteroids .news-title{
+    position: relative;
+    bottom: -245px;
+    background-color: rgb(16, 129, 221);
+    color: white;
+    width: 70px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.news-lower-list{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.about-NASA{
+    background-image: url(./images/nasa_logo.png);
+    height: 100%;
+    width: 25%;
+    margin: 5px;
+    background-size: cover;
+}
+
+.Juno{
+    background-image: url(./images/io-home.gif);
+    height: 100%;
+    width: 25%;
+    margin: 5px;
+    background-size: cover;
+}
+
+.Cassini{
+    background-image: url(./images/cassini20170809.jpg);
+    height: 100%;
+    width: 25%;
+    margin: 5px;
+    background-size: cover;
+}
+
+.Fermi-Space-Telescope{
+    background-image: url(./images/fermiicecube_as.jpg);
+    height: 100%;
+    width: 25%;
+    margin: 5px;
+    background-size: cover;
+}
+
+.news-lower-list .news-title{
+    position: relative;
+    bottom: -225px;
+    background-color: rgb(16, 129, 221);
+    color: white;
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.news-lower-list .news-brief{
+    position: relative;
+    bottom: -225px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    padding: 7px;
+}
+
+.Juno .news-title{
+    width: 40px;
+    bottom: -185px;
+}
+
+.Cassini .news-title{
+    width: 55px;
+}
+
+.Fermi-Space-Telescope .news-title{
+    width: 180px;
+}
+
+.read-more{
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px 0;
+    color: white;
+    background-color: royalblue;
+    text-align: center;
+}
+
+.page-footer{
+    margin-top: 30px;
+    height: 150px;
+}
+
+.nasa-info{
+    position: relative;
+    color: white;
+    width: 30%;
+    height: 50%;
+    float: left;
+}
+
+.nasa-info img{
+    float: left;
+    width: 70px;
+}
+
+.nasa-info p{
+    font-size: 12px;
+    line-height: 5px;
+    font-weight: bolder;
+}
+
+.other-nav-link{
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.other-nav-link a{
+    text-decoration: none;
+    color: rgb(68, 91, 160);
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.camera-icon{
+    position: relative;
+    top: 0;
+    left: 280px;
+    height: 40px;
+    width: 40px;
+    background:linear-gradient(to right top,transparent 50%,black 50%);
+    z-index: 2;
+}
+
+.camera-icon img{
+    position: relative;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.image-of-day .camera-icon{
+    position: relative;
+    top: 0;
+    left: 280px;
+    height: 50px;
+    width: 50px;
+    background:linear-gradient(to right top,transparent 50%,black 50%);
+    z-index: 2;
+}
+
+.image-of-day .news-title{
+    position: relative;
+    bottom: -195px;
+    background-color: rgb(16, 129, 221);
+    color: white;
+    width: 140px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.image-of-day .news-brief{
+    position: relative;
+    bottom: -195px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    padding: 7px;
+}
+
+.Juno .news-brief{
+    bottom: -185px;
+}
